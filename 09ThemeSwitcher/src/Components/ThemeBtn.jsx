@@ -15,7 +15,7 @@ export default function ThemeBtn() {
 
   return (
     <label className="relative inline-flex items-center cursor-pointer">
-      <input type="checkbox" value="" className="sr-only peer" 
+      <input type="checkbox" value={themeMode} className="sr-only peer" 
         onChange={onChangeBtn}
         checked={themeMode === "dark"}
       />
